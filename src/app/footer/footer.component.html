@@ -1,0 +1,61 @@
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <ul class="bottom_ul2" *ngIf="tigeen_menu">
+      <span class="menu_icon2">
+        <i class="fas fa-times" (click)="toggleMenu()"></i>
+      </span>
+      <li class="nav_bot2">
+        <i class="material-icons">mail</i>
+        <a href="#">Mail</a>
+      </li>
+
+      <li class="nav_bot2">
+        <i class="material-icons">alarm</i>
+        <a href="#">Alarm</a>
+      </li>
+
+      <li class="nav_bot2">
+        <i class="material-icons">movie_creation</i>
+        <a href="#">Movies </a>
+      </li>
+    </ul>
+    <div class="bottom_nav">
+      <span class="nav_bot1">
+        <li class="bot_menu">
+          <i class="material-icons" (click)="toggleMenu()">menu</i>
+        </li>
+      </span>
+      <span class="navb2">
+        <li class="bot_menu">
+          <i class="material-icons" (click)="toggleMenu()">menu</i>
+        </li>
+      </span>
+      <ul class="bottom_ul">
+        <li class="nav_bot">
+          <i class="material-icons">mail</i>
+          <a href="#">Mail</a>
+        </li>
+
+        <li class="nav_bot">
+          <i class="material-icons">alarm</i>
+          <a href="#">Alarm</a>
+        </li>
+
+        <li class="nav_bot">
+          <i class="material-icons">movie_creation</i>
+          <a href="#">Movies </a>
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>
